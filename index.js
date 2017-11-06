@@ -15,3 +15,9 @@ function sayHiToGrandma(string) {
   return ("I love you, too.");
 }
   }
+
+function logShout(string) {
+  if (string.toLowerCase()) {
+    console.log(string.toUpperCase());
+  }
+}
