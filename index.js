@@ -8,7 +8,7 @@ function whisper(string) {
 
 function logWhisper(string) {
   if (string === 'hello'.toLowerCase()) {
-    console.log(string.toUpperCase);
+    return console.log(string.toUpperCase);
   }
 }
 
